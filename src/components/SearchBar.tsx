@@ -31,7 +31,7 @@ export default function SearchBar({
             <input
                 type="text"
                 value={filterText}
-                placeholder="Buscar..."
+                placeholder="Search..."
                 onChange={handleTextChange}
                 className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full max-w-md"
             />
