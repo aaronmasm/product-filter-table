@@ -1,6 +1,7 @@
 # Product Filter Table
 
-A React application to filter and display products based on search text and stock status. This project demonstrates the use of React components, state management, and conditional rendering.
+A React application to filter and display products based on search text and stock status. This project demonstrates the
+use of React components, state management, and conditional rendering.
 
 ## Table of Contents
 
@@ -16,7 +17,9 @@ A React application to filter and display products based on search text and stoc
 
 ## Project Overview
 
-The Product Filter Table application allows users to filter and search through a list of products. Users can enter text to search for specific products and filter to show only products that are in stock. The products are grouped by category and displayed in a responsive table format.
+The Product Filter Table application allows users to filter and search through a list of products. Users can enter text
+to search for specific products and filter to show only products that are in stock. The products are grouped by category
+and displayed in a responsive table format.
 
 ## Features
 
@@ -50,39 +53,43 @@ To run this project locally:
 
    ```bash
    npm install
-   
+
 4. **Start the development server:**
    ```bash
    npm run dev
 
 ## Usage
 
-- **Search Bar:** Use the search bar at the top of the page to filter products by name. As you type, the list of products updates in real-time to show only those that match the search query.
+- **Search Bar:** Use the search bar at the top of the page to filter products by name. As you type, the list of
+  products updates in real-time to show only those that match the search query.
 
-- **Stock Filter:** Check the "Show only products in stock" checkbox to filter out products that are not in stock. This will hide any products that are currently unavailable.
+- **Stock Filter:** Check the "Show only products in stock" checkbox to filter out products that are not in stock. This
+  will hide any products that are currently unavailable.
 
 - **Product Table:** The table displays products organized by category. Each product row includes:
 
-  - **Name:** The name of the product, with text color indicating stock status (gray if in stock, red if out of stock).
-  - **Price:** The price of the product.
+    - **Name:** The name of the product, with text color indicating stock status (gray if in stock, red if out of
+      stock).
+    - **Price:** The price of the product.
 
-  Products are grouped by category, with category headers shown above each group. This helps to easily identify which products belong to which category.
+  Products are grouped by category, with category headers shown above each group. This helps to easily identify which
+  products belong to which category.
 
 ## Project Structure
 
 The project structure is organized as follows:
 
 - `src/`
-  - `components/` - Contains React components used in the application.
-    - `FilterableProductTable.tsx` - Main component that manages state and renders other components.
-    - `SearchBar.tsx` - Component for the search bar and stock filter checkbox.
-    - `ProductTable.tsx` - Component for rendering the product table.
-    - `ProductCategoryRow.tsx` - Component for displaying product category headers.
-    - `ProductRow.tsx` - Component for displaying individual product rows.
-  - `data/` - Contains sample product data.
-    - `products.ts` - Product data used in the application.
-  - `types/` - TypeScript type definitions.
-    - `index.ts` - Defines types for the application.
+    - `components/` - Contains React components used in the application.
+        - `FilterableProductTable.tsx` - Main component that manages state and renders other components.
+        - `SearchBar.tsx` - Component for the search bar and stock filter checkbox.
+        - `ProductTable.tsx` - Component for rendering the product table.
+        - `ProductCategoryRow.tsx` - Component for displaying product category headers.
+        - `ProductRow.tsx` - Component for displaying individual product rows.
+    - `data/` - Contains sample product data.
+        - `products.ts` - Product data used in the application.
+    - `types/` - TypeScript type definitions.
+        - `index.ts` - Defines types for the application.
 
 ## Components
 
@@ -94,8 +101,11 @@ The project structure is organized as follows:
 
 ## Styling
 
-The application uses Tailwind CSS for styling. The utility-first approach allows for rapid development and responsive design.
+The application uses Tailwind CSS for styling. The utility-first approach allows for rapid development and responsive
+design.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+© 2024 Aarón Más Murro
